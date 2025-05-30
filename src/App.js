@@ -1,12 +1,9 @@
 import React from 'react';
-import BCIDashboard from './Components/BCIDashboard'; // Assurez-vous que le chemin est correct
+import AirQualityAnalysis from './Components/AirQualityAnalysis';
 
 function App() {
-  return (
-    <div className="App">
-      <BCIDashboard />
-    </div>
-  );
+  return <AirQualityAnalysis />;
 }
 
 export default App;
+
